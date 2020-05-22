@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "Shopping",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh":true
+}

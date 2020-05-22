@@ -1,0 +1,93 @@
+/**shop.wxss**/
+/* search bar */
+.section{
+  width: 100%;
+}
+.searchBar{
+  display: flex;
+  justify-content: center;
+  height: 100rpx;
+  background: #ff6700;
+}
+.searchBar .searBar-box{
+  display: inline-block;
+  width: 95%;
+  height: 60rpx;
+  margin-top: 26rpx;
+  border-radius: 40rpx;
+  background: #fff;
+}
+.searBar-box.tap{
+  background: rgba(255,247,231,.9);
+}
+.search-plac{
+  text-align: center;
+  font-size: 11pt;
+  margin-top: 4rpx;
+}
+.searBar-box .search-icon{
+  position: absolute;
+  left: 36%;
+  top: 35rpx;
+  width: 44rpx;
+  height: 44rpx;
+}
+
+/* items */
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  margin: 10rpx 0 10rpx 10rpx;
+}
+ 
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+.final-price {
+  font-size: 30rpx;
+  color: red;
+  margin-top: 20rpx;
+}
+ 
+.quan {
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+ 
+.origin-price {
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+.copyquan {
+  font-size: 25rpx;
+  margin-top: 10rpx;
+  color: rgb(88, 68, 68);
+}
+
+.but {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 620rpx;
+  margin-top: 55rpx;
+  border: red;
+  color: red;
+}
+ 
+
+ 
+.line {
+  align-content: center;
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+ 
+.hr {
+  height: 10px;
+  background-color: #eee;
+}

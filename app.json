@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/shopping/shop",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#eeeeee",
+
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Hello world@ycc",
+    "navigationBarTextStyle":"white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

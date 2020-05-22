@@ -1,0 +1,8 @@
+/**map.wxss**/
+.mapstyle {
+  margin: 2rpx;
+  width: 500rpx;
+  height: 800rpx;
+  display: flex;
+  flex-direction: column;
+}
